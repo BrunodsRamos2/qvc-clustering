@@ -1,0 +1,26 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "gpus": "all"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-cell-tags",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-slideshow",
+                "ms-python.python"
+            ]
+        }
+    },
+    "runArgs": [
+        "--gpus",
+        "all",
+        "--runtime",
+        "nvidia"
+    ]
+}
