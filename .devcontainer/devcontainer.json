@@ -16,11 +16,11 @@
                 "ms-python.python"
             ]
         }
-    },
-    "runArgs": [
-        "--gpus",
-        "all",
-        "--runtime",
-        "nvidia"
-    ]
+    }
+    // "runArgs": [
+    //     "--gpus",
+    //     "all",
+    //     "--runtime",
+    //     "nvidia"
+    // ]
 }
